@@ -1,4 +1,4 @@
-FROM confluentinc/cp-ksqldb-cli:5.5.0
+FROM confluentinc/cp-ksqldb-cli:6.0.0
 
 RUN apt-get update && apt-get install -y openssh-server mysql-client
 RUN mkdir -p /var/run/sshd /usr/logs/ksql-cli
