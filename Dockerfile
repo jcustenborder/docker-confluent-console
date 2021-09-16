@@ -1,4 +1,4 @@
-FROM confluentinc/cp-ksqldb-cli:6.0.0
+FROM confluentinc/cp-ksqldb-cli:6.2.0
 
 USER root
 
